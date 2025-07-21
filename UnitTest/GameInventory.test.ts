@@ -1,5 +1,5 @@
-import { Item } from "./Item";
-import { GameInventory } from "./GameInventory";
+import { Item } from "../Inventory/Item";
+import { GameInventory } from "../Inventory/GameInventory";
 
 describe("GameInventory", () => {
   describe("BackstagePasses", () => {

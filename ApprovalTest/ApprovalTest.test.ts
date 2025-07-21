@@ -1,4 +1,4 @@
-import { Program } from "./Program";
+import { Program } from "../Program";
 
 describe("ApprovalTest", () => {
   test("ThirtyDays", () => {
