@@ -1,5 +1,5 @@
-import { Item } from "../Item";
-import { ItemUpdater } from "./ItemUpdater";
+import { Item } from "../../Item";
+import { ItemUpdater } from "../intefaces/ItemUpdater";
 
 export class BackstagePassUpdater implements ItemUpdater {
   update(item: Item): void {

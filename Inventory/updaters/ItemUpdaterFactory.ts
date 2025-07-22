@@ -1,9 +1,9 @@
 import { Item } from "../Item";
-import { ItemUpdater } from "./ItemUpdater";
-import { AgedBrieUpdater } from "./AgedBrieUpdater";
-import { BackstagePassUpdater } from "./BackstagePassUpdater";
-import { SulfurasUpdater } from "./SulfurasUpdater";
-import { DefaultItemUpdater } from "./DefaultItemUpdater";
+import { ItemUpdater } from "./intefaces/ItemUpdater";
+import { AgedBrieUpdater } from "./strategies/AgedBrieUpdater";
+import { BackstagePassUpdater } from "./strategies/BackstagePassUpdater";
+import { SulfurasUpdater } from "./strategies/SulfurasUpdater";
+import { DefaultItemUpdater } from "./strategies/DefaultItemUpdater";
 
 export class ItemUpdaterFactory {
   static getUpdater(item: Item): ItemUpdater {
