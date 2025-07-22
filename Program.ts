@@ -22,16 +22,13 @@ export class Program {
     for (let index = 0; index < 31; index++) {
       console.log(`-------- day ${index} --------`);
       console.log("name, sellIn, quality");
-
-      for (let pivot = 0; pivot < items.length; pivot++) {
-        console.log(items[pivot].toString());
+      for (const item of items) {
+        console.log(item.toString());
       }
-
       console.log("");
       app.updateQuality();
     }
   }
 }
 
-// Run the program
 Program.main();
